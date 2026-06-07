@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+.env
+.env.*
+dist/
+build/
+__pycache__/
+*.pyc
+node_modules/
+*.secret
+*token*
+*credential*
+state.json
+cookies/
+keychain/

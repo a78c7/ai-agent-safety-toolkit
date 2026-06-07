@@ -1,0 +1,31 @@
+name: link-check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check required links
+        run: |
+          grep -q "https://github.com/a78c7/bountylens" README.md
+          grep -q "https://github.com/a78c7/testability-doctor" README.md
+          grep -q "https://github.com/a78c7/agentgate" README.md
+
+      - name: Check diagrams
+        run: |
+          test -f diagrams/ai-agent-safety-workflow.svg
+          test -f diagrams/toolchain-overview.svg
+
+      - name: Check docs
+        run: |
+          test -f docs/workflow.md
+          test -f docs/tool-comparison.md
+          test -f docs/safety-model.md
+          test -f docs/use-cases.md
+          test -f docs/faq.md
