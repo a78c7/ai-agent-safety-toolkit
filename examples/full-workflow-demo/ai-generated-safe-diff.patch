@@ -1,0 +1,25 @@
+diff --git a/README.md b/README.md
+index 1111111..2222222 100644
+--- a/README.md
++++ b/README.md
+@@ -4,12 +4,16 @@ This fake repository is used by the AI Agent Safety Toolkit full workflow demo.
+ 
+ ## CLI Example
+ 
+-Incorrect example:
++Use the package entry point:
+ 
+ ```bash
+-node src/cli.js --name demo
++node src/index.js demo
+ ```
+ 
+-Expected example:
++Test note:
++
++The existing fixture test command is:
+ 
+ ```bash
+-node src/index.js demo
++npm test
+ ```

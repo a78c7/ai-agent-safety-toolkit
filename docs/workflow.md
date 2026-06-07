@@ -25,3 +25,9 @@ AI Agent Safety Toolkit separates the workflow into explicit checkpoints.
 ## Boundaries
 
 This workflow does not guarantee earnings, automatically claim bounty rewards, handle KYC/payment/withdrawal, or encourage spam PRs.
+
+## Demo workflow
+
+See [Full Workflow Demo](../examples/full-workflow-demo/README.md).
+
+The demo uses fake local data to show how BountyLens, Testability Doctor, and AgentGate fit together without a real GitHub issue, real bounty, network access, credential access, dependency installation, or PR creation.

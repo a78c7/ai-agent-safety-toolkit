@@ -1,0 +1,9 @@
+{
+  "name": "toolkit-full-workflow-fake-repo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/index.test.js",
+    "lint": "node src/index.js demo"
+  }
+}

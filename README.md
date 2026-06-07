@@ -81,6 +81,12 @@ GitHub issue
 
 See [docs/workflow.md](docs/workflow.md) for the full workflow.
 
+## End-to-end demo
+
+See [examples/full-workflow-demo/](examples/full-workflow-demo/).
+
+This demo uses fake data to show how BountyLens, Testability Doctor, and AgentGate fit together.
+
 ## Launch story
 
 - [Launch blog post](launch/launch-blog-post.md)
