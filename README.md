@@ -81,6 +81,12 @@ GitHub issue
 
 See [docs/workflow.md](docs/workflow.md) for the full workflow.
 
+## Launch story
+
+- [Launch blog post](launch/launch-blog-post.md)
+- [Social posts](launch/social-posts.md)
+- [AI-agent PR case study](launch/case-study-ai-agent-pr.md)
+
 ## Quickstart
 
 For a bounty issue:

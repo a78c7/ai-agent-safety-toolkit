@@ -23,3 +23,7 @@ An open-source project documents that agent-generated diffs should pass AgentGat
 ## 6. Documentation-Only Contribution
 
 A contributor uses Testability Doctor to determine that code changes are risky but documentation changes are reasonable.
+
+## Case study
+
+See [Case Study: An AI-Agent PR With Safety Gates](../launch/case-study-ai-agent-pr.md).
