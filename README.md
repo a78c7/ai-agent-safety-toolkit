@@ -4,6 +4,8 @@ Safety-first tools for AI coding agent workflows — from issue triage to repo t
 
 一组安全优先的 AI coding agent 工具链：从 issue 候选筛选，到 repo 可测试性判断，再到 PR 前 diff 安全门。
 
+Repository: https://github.com/a78c7/ai-agent-safety-toolkit
+
 ## What is this?
 
 AI Agent Safety Toolkit is a collection of safety-first tools for evaluating bounty issues, repository testability, and AI-generated code changes before pull requests.
